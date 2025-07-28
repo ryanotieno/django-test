@@ -1,0 +1,39 @@
+# Force Railway to use Nixpacks by ignoring Docker files
+Dockerfile*
+docker-compose*
+.dockerignore*
+docker-entrypoint*
+.docker*
+
+# Virtual environments
+venv/
+env/
+ENV/
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database
+*.sqlite3
+*.db
+
+# Static files
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 
